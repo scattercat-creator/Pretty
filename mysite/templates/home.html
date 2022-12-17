@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <h1 class="head">Pretty Boy</h1>
+    <div class="intro-container">
+        <p class="intro">Let's be honest, if anyone likes pretty things, it's boys. So, in an effort to help you live up to your pretty dreams, we've created <i>pretty boy</i>, just talk to our chatbot and find out just what, exactly, your pretty heart desires. <3</p>
+    </div>
+    <div id='bot'>
+        <div class="botext">
+        <p class="text1">What style are you interesting in? </p>
+        <p>Hint: click info under any style if you don't know what it is</p>
+        </div>
+        <ul>
+            <li><button id="street">Street</button></li>
+            <li><button id="soft">Soft</button></li>
+            <li><button id="classic">Classic</button></li>
+            <li><button>Info</button></li>
+        </ul>
+
+    </div>
+
+
+
+
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

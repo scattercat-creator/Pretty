@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+.head {
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Rubik Vinyl', cursive;
+    color: white;
+}
+body {
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+#bot {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: auto;
+}
+ul > li {
+    display: inline-block;
+
+    /* You can also add some margins here to make it look prettier */
+}
+ul {
+    float: right;
+}
+button {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.botext {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    float: left;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.botext > p {
+    margin: 2px;
+}
